@@ -1,0 +1,52 @@
+Xpath expression
+
+//input[@placeholder='Username'] - Username
+//input[@placeholder='email'] - email
+//input[@name='password'] - password
+//input[@id='defaultRegisterPhonePassword'] – Confirm passwrd
+//button[@id='sign-in-button'] – Sign in button
+//span[@class='invalid-feedback'] - има 3 резултата ()
+//h4[@class='text-center mb-4'] – Sign up
+//h4[contains(text(),'Sign up')]
+//span[@class='navbar-toggler-icon'] – Home/Login button 
+//img[@id='homeIcon']
+//div[contains(text(),'Version: 2020.3.1.4200')]
+//h6[contains(text(),'Technologies:')]
+//img[@src='https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png']
+//img[@src='https://cdn.worldvectorlogo.com/logos/angular-icon.svg']
+//img[@src='https://d33wubrfki0l68.cloudfront.net/49c2be6f2607b5c12dd27f8ecc8521723447975d/f05c5/logo-small.cbbeba89.svg']
+//a[@id='nav-link-home']
+//a[@id='nav-link-login']
+//a[@class='navbar-brand']
+//img[@id='homeIcon']
+//button[@class='navbar-toggler']
+//input[@placeholder='Username']/following-sibling::* - This field is required –username
+//input[@formcontrolname='email']/following-sibling::*
+//input[@id='defaultRegisterFormPassword']/following-sibling::*
+
+CSS Selectors
+
+input[placeholder='Username']
+input[name='username']
+input[formcontrolname='username']
+span.invalid-feedback
+input[formcontrolname='email']
+input[formcontrolname='password']
+input[placeholder='email']
+input#defaultRegisterFormPassword
+input[placeholder='Password']
+input[name='password']
+input[placeholder='Username']+* - this field is required username
+input[placeholder='email']+* - this field is required email
+input#defaultRegisterFormPassword+* - this field is required password
+input#defaultRegisterPhonePassword – confirm password
+button#sign-in-button
+button#sign-in-button:enabled
+button#sign-in-button:disabled
+img[src='https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png']
+img[src='https://cdn.worldvectorlogo.com/logos/angular-icon.svg']
+img[src='https://d33wubrfki0l68.cloudfront.net/49c2be6f2607b5c12dd27f8ecc8521723447975d/f05c5/logo-small.cbbeba89.svg']
+img#homeIcon
+a#nav-link-home
+a#nav-link-login
+span.navbar-toggler-icon
